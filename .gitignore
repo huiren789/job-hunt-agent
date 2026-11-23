@@ -1,0 +1,30 @@
+# 运行时登录态 / 缓存（绝对不能提交）
+profile*/
+**/profile*/
+**/__pycache__/
+*.pyc
+
+# 本地真实数据（含个人信息，绝不提交）
+outbox.json
+run.log
+*.log
+投递追踪表*.xlsx
+拒因收集*.md
+邮箱闭环状态.json
+待发确认队列.md
+
+# 真实简历与材料
+*简历*.docx
+*简历*.pdf
+
+# 探针/截图（调试产物，可能含个人信息）
+probe*.py
+*_probe*.py
+*.png
+*.jpg
+
+# 环境
+.env
+.venv/
+venv/
+.DS_Store
